@@ -1,33 +1,43 @@
-
-# Ride-Hailing Platform Database – Group 1 (Ethiopia)
+# 🚖 Ride-Hailing Platform Database - Group 1 (Ethiopia)
 
 **Advanced Database Systems Assignment**  
-**Ride-Hailing Platform in Ethiopian Cities** (Addis Ababa, Adama, Hawassa)
+**Scalable Ride-Hailing Platform for Ethiopian Cities**  
+(Addis Ababa, Adama, Hawassa)
 
-**Miseensota Group:** (Maqaalee keessan hunda barreessi)  
-**Barsiisaa keessan:** [Maqaa Barsiisaa]  
-**Guyyaa:** April 2026
+**Group Members:**  
+- [Add all group member names here]
 
-## Gabaasa Proojektii
-Galmi database scalable, ACID-compliant, geo-distributed kan ta'e ride-hailing app tiif qophaa'e.  
-- Rideewwan baay'ee (thousands) yeroo peak hour  
-- Bakka driver real-time ta'e  
-- Fraud prevention & audit logging  
-- Surge pricing  
-- Magaalaa adda addaa (Addis Ababa, Adama, Hawassa)
+**Instructor:** [Your teacher's name]  
+**Date:** April 2026
 
-**Technologies:** PostgreSQL 16 + PostGIS + pg_crypto
+## Project Overview
+This project designs a scalable, ACID-compliant, geo-distributed database for a ride-hailing platform similar to Uber, operating in Ethiopian cities.  
 
-## Galmi keessatti argaman
-- ER Diagram  
-- Schema SQL  
-- Optimized Queries  
-- Concurrency Simulation  
-- Security  
-- Distributed Design  
-- Failure Recovery  
+It handles:
+- High concurrency during peak hours (thousands of ride requests)
+- Real-time driver location updates
+- Fraud prevention and audit logging
+- Surge pricing
+- Prevention of double-booking
+- Geographic distribution across cities
 
-**Yoo hojjechuuf:**
-1. PostgreSQL + PostGIS install godhaa
-2. `psql -f schema.sql`
-3. `psql -f data_population.sql`
+**Technologies Used:** PostgreSQL 16 + PostGIS (for geo-location) + pg_crypto (for encryption)
+
+## Repository Contents
+- **ER_Diagram.md** – Entity Relationship Diagram
+- **schema.sql** – Database schema with indexes
+- **data_population.sql** – Sample data
+- **queries.sql** – Optimized queries
+- **concurrency_simulation.md** – Concurrency control
+- **security.sql** – Security and RBAC
+- **distributed_design.md** – Distributed database design
+- **failure_recovery.md** – Failure recovery strategies
+- **full_report.md** – Complete project report
+- **presentation_outline.md** – PPT slide outline
+
+**How to Run:**
+1. Install PostgreSQL with PostGIS extension
+2. Run `psql -f schema.sql`
+3. Run `psql -f data_population.sql`
+
+The repository is **Public** as requested by the instructor.
