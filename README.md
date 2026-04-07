@@ -7,7 +7,7 @@
 **Group Members:**  
 - [Add all group member names here]
 
-**Instructor:** [Your teacher's name]  
+**Instructor:** [Mr.Birhanu ]  
 **Date:** April 2026
 
 ## Project Overview
@@ -40,4 +40,4 @@ It handles:
 2. Run `psql -f schema.sql`
 3. Run `psql -f data_population.sql`
 
-The repository is **Public** as requested by the instructor.
+The repository is **Public** .
